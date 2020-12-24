@@ -4,24 +4,9 @@
     <projectFile>TextSmasher/TextSmasher.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/TextSmasher.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/TextSmasher.RazorComponent.input.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/TextSmasher.RazorComponent.output.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/TextSmasher.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/TextSmasher.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/dotnet.5.0.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/Debug/net5.0/dotnet.5.0.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="git ignore added">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +87,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608797937724</updated>
-      <workItem from="1608797948153" duration="636000" />
+      <workItem from="1608797948153" duration="1629000" />
     </task>
+    <task id="LOCAL-00001" summary="git ignore added">
+      <created>1608799460475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608799460475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +118,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="git ignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore added" />
   </component>
 </project>
