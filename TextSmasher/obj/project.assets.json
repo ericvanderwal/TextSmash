@@ -1209,24 +1209,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eric\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\eric_\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eric\\Documents\\GitHub\\TextSmasher\\TextSmasher\\TextSmasher.csproj",
+      "projectUniqueName": "C:\\Users\\eric_\\RiderProjects\\TextSmash\\TextSmasher\\TextSmasher.csproj",
       "projectName": "TextSmasher",
-      "projectPath": "C:\\Users\\Eric\\Documents\\GitHub\\TextSmasher\\TextSmasher\\TextSmasher.csproj",
-      "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eric\\Documents\\GitHub\\TextSmasher\\TextSmasher\\obj\\",
+      "projectPath": "C:\\Users\\eric_\\RiderProjects\\TextSmash\\TextSmasher\\TextSmasher.csproj",
+      "packagesPath": "C:\\Users\\eric_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eric_\\RiderProjects\\TextSmash\\TextSmasher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
-        "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\eric_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

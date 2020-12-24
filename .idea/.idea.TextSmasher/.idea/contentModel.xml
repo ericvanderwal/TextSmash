@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Eric\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Eric\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TextSmasher.602141469.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Eric\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Eric\Documents\GitHub\TextSmasher" t="IncludeFlat">
+    <e p="C:\Users\eric_\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\eric_\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_TextSmasher.-1215063868.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eric_\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\eric_\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\eric_\RiderProjects\TextSmash" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="TextSmasher" t="IncludeRecursive">
         <e p="_Imports.razor" t="Include" />
