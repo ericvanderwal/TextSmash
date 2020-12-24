@@ -1,17 +1,56 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@ToggleDrawer"/>
+        <MudAppBarSpacer/>
+        <MudIconButton Icon="@Icons.Custom.GitHub" Color="Color.Inherit" Link="https://github.com/ericvanderwal/Terms-Of-Service-2021" Target="_blank"/>
+    </MudAppBar>
+    <MudDrawer @bind-Open="@open" Elevation="1" Clipped="true">
+        <MudDrawerHeader>
+            <MudText Typo="Typo.h6">TOS 2021</MudText>
+        </MudDrawerHeader>
+        <MudNavMenu>
+            <MudNavLink Match="NavLinkMatch.All" Href="/">Home</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Href="about">About</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All" Href="contribute">Contribute</MudNavLink>
+        </MudNavMenu>
+    </MudDrawer>
+    <MudMainContent Class="pt-16 px-16">
+        <MudContainer Class="mt-6">
 
-    <div class="main">
-        <div class="top-row px-4">
-            <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
-        </div>
-
-        <div class="content px-4">
             @Body
-        </div>
-    </div>
-</div>
+            <MudThemeProvider Theme="StandardOrangeTheme"/>
+            <MudDialogProvider/>
+            <MudSnackbarProvider/>
+
+            <LoremIpsum/>
+
+
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+@code{
+    bool open = true;
+
+    void ToggleDrawer()
+    {
+        open = !open;
+    }
+
+    MudTheme StandardOrangeTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+            Primary = Colors.Blue.Default,
+            Secondary = Colors.Green.Accent4,
+            AppbarBackground = Colors.Red.Default,
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DrawerWidth = "260px"
+        }
+    };
+
+}

@@ -82,6 +82,27 @@ using TextSmasher.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Eric\Documents\GitHub\TextSmasher\TextSmasher\_Imports.razor"
+using MudBlazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Eric\Documents\GitHub\TextSmasher\TextSmasher\_Imports.razor"
+using MudBlazor.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Users\Eric\Documents\GitHub\TextSmasher\TextSmasher\_Imports.razor"
+using MudBlazor.Dialog;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +110,34 @@ using TextSmasher.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 34 "C:\Users\Eric\Documents\GitHub\TextSmasher\TextSmasher\Shared\MainLayout.razor"
+      
+    bool open = true;
+
+    void ToggleDrawer()
+    {
+        open = !open;
+    }
+
+    MudTheme StandardOrangeTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+            Primary = Colors.Blue.Default,
+            Secondary = Colors.Green.Accent4,
+            AppbarBackground = Colors.Red.Default,
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DrawerWidth = "260px"
+        }
+    };
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

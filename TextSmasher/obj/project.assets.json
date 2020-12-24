@@ -288,6 +288,25 @@
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "MudBlazor/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8",
+          "Microsoft.AspNetCore.Components.Web": "3.1.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/MudBlazor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MudBlazor.dll": {}
+        },
+        "build": {
+          "buildTransitive/MudBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.props": {}
+        }
+      },
       "System.IO.Pipelines/5.0.0": {
         "type": "package",
         "compile": {
@@ -592,6 +611,25 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
+        }
+      },
+      "MudBlazor/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.8",
+          "Microsoft.AspNetCore.Components.Web": "3.1.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/MudBlazor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MudBlazor.dll": {}
+        },
+        "build": {
+          "buildTransitive/MudBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.props": {}
         }
       },
       "System.IO.Pipelines/5.0.0": {
@@ -1094,6 +1132,25 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "MudBlazor/1.2.1": {
+      "sha512": "nXGvBFVJqGXnh0XzHLlIgfUcETMH+mnMVe63QJj9oUj5Yk/201iSWqGVueZppEioQG7GxSPfG1262KE90B/dHA==",
+      "type": "package",
+      "path": "mudblazor/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/MudBlazor.props",
+        "buildMultiTargeting/MudBlazor.props",
+        "buildTransitive/MudBlazor.props",
+        "lib/netstandard2.1/MudBlazor.dll",
+        "lib/netstandard2.1/MudBlazor.xml",
+        "mudblazor.1.2.1.nupkg.sha512",
+        "mudblazor.nuspec",
+        "staticwebassets/MudBlazor.min.css",
+        "staticwebassets/MudBlazor.min.js"
+      ]
+    },
     "System.IO.Pipelines/5.0.0": {
       "sha512": "irMYm3vhVgRsYvHTU5b2gsT2CwT/SMM6LZFzuJjpIvT5Z4CshxNsaoBC1X/LltwuR3Opp8d6jOS/60WwOb7Q2Q==",
       "type": "package",
@@ -1147,6 +1204,7 @@
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.0",
+      "MudBlazor >= 1.2.1",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
@@ -1201,6 +1259,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[1.2.1, )"
           },
           "System.Net.Http.Json": {
             "target": "Package",

@@ -2,24 +2,36 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>TextSmasher</title>
-    <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/app.css" rel="stylesheet" />
-    <link href="TextSmasher.styles.css" rel="stylesheet" />
+    <base href="/"/>
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet"/>
+    <link href="css/app.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <div id="app">Loading...</div>
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+
+<div id="app">
+    <div class="loading-section">
+        <h2>Loading Text Smash</h2>
+        <div class="short-description">This may take a few moments to load in your browser the first time only.</div>
+        <div class="loader mt-5">
+            <div class="loader-dot dot1"></div>
+            <div class="loader-dot dot2"></div>
+            <div class="loader-dot dot3"></div>
+        </div>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+<script src="_framework/blazor.webassembly.js"></script>
+<script src="_content/MudBlazor/MudBlazor.min.js"></script>
 </body>
 
 </html>
