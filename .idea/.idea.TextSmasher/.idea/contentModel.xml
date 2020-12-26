@@ -11,6 +11,14 @@
         <e p="_Imports.razor" t="Include" />
         <e p="App.razor" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="TextInputOutput.razor" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Forms" t="Include">
+            <e p="SimpleTextModel.cs" t="Include" />
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -24,6 +32,9 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Routing" t="Include">
+          <e p="SimpleTextRoute.cs" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="MainLayout.razor" t="Include" />
@@ -57,6 +68,25 @@
             <e p="weather.json" t="Include" />
           </e>
         </e>
+      </e>
+      <e p="TextSmasher.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="SimpleText" t="Include">
+            <e p="ConversionType.cs" t="Include" />
+            <e p="ISimpleText.cs" t="Include" />
+            <e p="ToLowerAll.cs" t="Include" />
+            <e p="ToUpperAll.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="TextSmasher.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextSmasher.Core.csproj" t="IncludeRecursive" />
       </e>
       <e p="TextSmasher.sln" t="IncludeFlat" />
     </e>

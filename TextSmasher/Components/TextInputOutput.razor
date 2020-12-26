@@ -1,0 +1,95 @@
+@using TextSmasher.Core.Commands
+@using TextSmasher.Core
+@using TextSmasher.Routing
+@using System.ComponentModel.DataAnnotations
+@using System.Windows.Input
+@using TextSmasher.Models.Forms
+@using System.ComponentModel
+@inject IJSRuntime JSRuntime
+
+
+<MudSelect Label="Select drink" @bind-Value="conversionType" HelperText="Enum">
+    @foreach (ConversionType item in Enum.GetValues(typeof(ConversionType)))
+    {
+        <MudSelectItem Value="@item">@item</MudSelectItem>    }
+</MudSelect>
+
+
+<EditForm Model="@model" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator/>
+
+    <MudGrid>
+
+        <MudItem xs="12" sm="12" md="12">
+            <MudTextField T="string" Variant="Variant.Text" Text="@instructionsText" Lines="5"/>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="6">
+            <MudTextField T="string" Label="Input" Variant="Variant.Outlined" @bind-Value="model.InputValue" For="@(() => model.InputValue)" Lines="3"/>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="6">
+            <MudTextField T="string" Label="Output" Variant="Variant.Filled" @bind-Value="model.OutputValue" For="@(() => model.OutputValue)"Lines="3"/>
+        </MudItem>
+        <MudItem xs="12" sm="12" md="12">
+        </MudItem>
+
+    </MudGrid>
+
+    <MudCardActions>
+        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Run</MudButton>
+    </MudCardActions>
+</EditForm>
+
+
+@code
+{
+
+    SimpleTextModel model = new SimpleTextModel();
+    string instructionsText;
+
+    private ConversionType conversionType
+    {
+        get => _conversionType;
+        set
+        {
+            _conversionType = value;
+            UpdateInstructions();
+        }
+    }
+
+    bool error;
+    bool success;
+    ISimpleText simpleTextExecute;
+    private ConversionType _conversionType;
+
+
+    // user has clicked submit. Convert text
+    private void OnValidSubmit(EditContext context)
+    {
+        success = true;
+        ConvertText();
+    }
+    
+    // component is initialized. First fetch the default conversion type
+    // and get the instructions to display
+    protected override void OnInitialized()
+    {
+        UpdateInstructions();
+        base.OnInitialized();
+    }
+
+    // update instructions
+    private void UpdateInstructions()
+    {
+        JSRuntime.InvokeVoidAsync("console.log", conversionType.ToString());
+        simpleTextExecute = SimpleTextRoute.Parse(conversionType);
+        instructionsText = simpleTextExecute.Instructions();
+        StateHasChanged();
+    }
+
+    // convert txt and display
+    private void ConvertText()
+    {
+        model.OutputValue = simpleTextExecute.Run(model.InputValue, out error);
+    }
+
+}

@@ -324,6 +324,16 @@
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
         }
+      },
+      "TextSmasher.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TextSmasher.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextSmasher.Core.dll": {}
+        }
       }
     },
     "net5.0/browser-wasm": {
@@ -648,6 +658,16 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "TextSmasher.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TextSmasher.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextSmasher.Core.dll": {}
         }
       }
     }
@@ -1198,6 +1218,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TextSmasher.Core/1.0.0": {
+      "type": "project",
+      "path": "../TextSmasher.Core/TextSmasher.Core.csproj",
+      "msbuildProject": "../TextSmasher.Core/TextSmasher.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1205,7 +1230,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.0",
       "MudBlazor >= 1.2.1",
-      "System.Net.Http.Json >= 5.0.0"
+      "System.Net.Http.Json >= 5.0.0",
+      "TextSmasher.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1239,7 +1265,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\eric_\\RiderProjects\\TextSmash\\TextSmasher.Core\\TextSmasher.Core.csproj": {
+              "projectPath": "C:\\Users\\eric_\\RiderProjects\\TextSmash\\TextSmasher.Core\\TextSmasher.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

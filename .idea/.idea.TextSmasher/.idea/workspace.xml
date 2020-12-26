@@ -4,9 +4,27 @@
     <projectFile>TextSmasher/TextSmasher.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="git ignore added">
+    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="fixed components folder">
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ConversionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ISimpleText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToLowerAll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToUpperAll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/TextSmasher.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher/Models/Forms/SimpleTextModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +34,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E6205C6-480B-42A2-93FD-A160F7771CB9/3b/bc45f4de/ICommand.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor.css" />
-      <option value="$PROJECT_DIR$/TextSmasher/Program.cs" />
       <option value="$PROJECT_DIR$/TextSmasher/_Imports.razor" />
       <option value="$PROJECT_DIR$/TextSmasher/wwwroot/index.html" />
       <option value="$PROJECT_DIR$/TextSmasher/wwwroot/css/app.css" />
+      <option value="$PROJECT_DIR$/TextSmasher/Pages/Index.razor" />
       <option value="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Class1.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/TextParser.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/TextRouter.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/ConversionType.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/ITextExecute.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/Text/ToUpperAll.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Text.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/Text/ToLowerAll.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Program.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Components/ConsoleWrite.razor" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ISimpleText.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToUpperAll.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Models/Forms/SimpleTextModel.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToLowerAll.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m40CjL98VgA0IPVPPRQG5g9V6e" />
@@ -38,6 +75,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3495212" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -87,7 +126,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608797937724</updated>
-      <workItem from="1608797948153" duration="1629000" />
+      <workItem from="1608797948153" duration="13318000" />
+      <workItem from="1608972423925" duration="6583000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore added">
       <created>1608799460475</created>
@@ -96,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608799460475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed components folder">
+      <created>1608800529341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608800529341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,11 +161,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="git ignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore added" />
+    <MESSAGE value="fixed components folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed components folder" />
   </component>
 </project>
