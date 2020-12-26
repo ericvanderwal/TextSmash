@@ -75,6 +75,8 @@
           <e p="SimpleText" t="Include">
             <e p="ConversionType.cs" t="Include" />
             <e p="ISimpleText.cs" t="Include" />
+            <e p="RemoveWhiteSpace.cs" t="Include" />
+            <e p="ReverseText.cs" t="Include" />
             <e p="ToLowerAll.cs" t="Include" />
             <e p="ToUpperAll.cs" t="Include" />
           </e>

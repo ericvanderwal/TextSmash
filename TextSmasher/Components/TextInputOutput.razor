@@ -8,7 +8,7 @@
 @inject IJSRuntime JSRuntime
 
 
-<MudSelect Label="Select drink" @bind-Value="conversionType" HelperText="Enum">
+<MudSelect Label="Select Conversion" @bind-Value="conversionType">
     @foreach (ConversionType item in Enum.GetValues(typeof(ConversionType)))
     {
         <MudSelectItem Value="@item">@item</MudSelectItem>    }
@@ -21,13 +21,13 @@
     <MudGrid>
 
         <MudItem xs="12" sm="12" md="12">
-            <MudTextField T="string" Variant="Variant.Text" Text="@instructionsText" Lines="5"/>
+            <MudText Typo="Typo.body1">@instructionsText</MudText>
         </MudItem>
-        <MudItem xs="12" sm="6" md="6">
-            <MudTextField T="string" Label="Input" Variant="Variant.Outlined" @bind-Value="model.InputValue" For="@(() => model.InputValue)" Lines="3"/>
+        <MudItem xs="12" sm="12" md="6">
+            <MudTextField T="string" Label="Input" Variant="Variant.Outlined" @bind-Value="model.InputValue" For="@(() => model.InputValue)" Lines="6"/>
         </MudItem>
-        <MudItem xs="12" sm="6" md="6">
-            <MudTextField T="string" Label="Output" Variant="Variant.Filled" @bind-Value="model.OutputValue" For="@(() => model.OutputValue)"Lines="3"/>
+        <MudItem xs="12" sm="12" md="6">
+            <MudTextField T="string" Label="Output" Variant="Variant.Filled" @bind-Value="model.OutputValue" For="@(() => model.OutputValue)"Lines="6"/>
         </MudItem>
         <MudItem xs="12" sm="12" md="12">
         </MudItem>
@@ -68,7 +68,7 @@
         success = true;
         ConvertText();
     }
-    
+
     // component is initialized. First fetch the default conversion type
     // and get the instructions to display
     protected override void OnInitialized()
@@ -89,7 +89,9 @@
     // convert txt and display
     private void ConvertText()
     {
-        model.OutputValue = simpleTextExecute.Run(model.InputValue, out error);
+        string outTetxt = simpleTextExecute.Run(model.InputValue, out error);
+        model.OutputValue = outTetxt;
+        JSRuntime.InvokeVoidAsync("console.log", outTetxt + "Error is: " + error);
     }
 
 }

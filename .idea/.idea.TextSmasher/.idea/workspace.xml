@@ -4,27 +4,14 @@
     <projectFile>TextSmasher/TextSmasher.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="fixed components folder">
-      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ConversionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ISimpleText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToLowerAll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToUpperAll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/TextSmasher.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/Models/Forms/SimpleTextModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" afterDir="false" />
+    <list default="true" id="a32b76b6-ad00-4d0e-abcc-99a5f69741f2" name="Default Changelist" comment="Added sample conversion for simple text conversion">
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/RemoveWhiteSpace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ReverseText.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TextSmasher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Pages/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/TextSmasher.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/TextSmasher.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ConversionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ConversionType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,15 +39,18 @@
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/ITextExecute.cs" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/Text/ToUpperAll.cs" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Text.cs" />
-      <option value="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/Text/ToLowerAll.cs" />
       <option value="$PROJECT_DIR$/TextSmasher/Program.cs" />
       <option value="$PROJECT_DIR$/TextSmasher/Components/ConsoleWrite.razor" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ISimpleText.cs" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToUpperAll.cs" />
       <option value="$PROJECT_DIR$/TextSmasher/Models/Forms/SimpleTextModel.cs" />
-      <option value="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" />
       <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ToLowerAll.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/RemoveWhiteSpace.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ConversionType.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Routing/SimpleTextRoute.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher.Core/Commands/SimpleText/ReverseText.cs" />
+      <option value="$PROJECT_DIR$/TextSmasher/Components/TextInputOutput.razor" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m40CjL98VgA0IPVPPRQG5g9V6e" />
@@ -127,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608797937724</updated>
       <workItem from="1608797948153" duration="13318000" />
-      <workItem from="1608972423925" duration="6583000" />
+      <workItem from="1608972423925" duration="14001000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore added">
       <created>1608799460475</created>
@@ -143,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608800529341</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added sample conversion for simple text conversion">
+      <created>1608988795676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608988795676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +165,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="git ignore added" />
     <MESSAGE value="fixed components folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed components folder" />
+    <MESSAGE value="Added sample conversion for simple text conversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sample conversion for simple text conversion" />
   </component>
 </project>

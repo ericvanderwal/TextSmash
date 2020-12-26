@@ -4,5 +4,7 @@ namespace TextSmasher.Core
     {
         ToUpperAll,
         ToLowerAll,
+        RemoveWhiteSpace,
+        ReverseText
     }
 }

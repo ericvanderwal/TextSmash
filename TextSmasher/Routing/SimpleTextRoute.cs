@@ -16,6 +16,12 @@ namespace TextSmasher.Routing
                 case ConversionType.ToLowerAll:
                     return new ToLowerAll();
                     break;
+                case ConversionType.RemoveWhiteSpace:
+                    return new RemoveWhiteSpace();
+                    break;
+                case ConversionType.ReverseText:
+                    return new ReverseText();
+                    break;
                 default:
                     return null;
             }
